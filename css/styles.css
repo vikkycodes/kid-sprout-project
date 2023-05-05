@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    height: 100vh;
+    width: 15%;
+    padding: 70px 40px 0 10px;
+    background-color: rgba(240, 248, 255, 0.479);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #01A9DD;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3737;
+    font-size: 17px;
+}
+
+a:hover {
+    color: white;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 60%;
+    position: relative;
+    padding: 20px 0 0 0;
+}
+
+input {
+    width: 90%;
+    height: 35px;
+    border-radius: 30px;
+    outline: 0;
+    border: 1px solid #3c3737;
+    padding: 20px 45px;
+}
+
+.search {
+    width: 20px;
+    position: absolute;
+    right: 95%;
+    top: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    width: 90%;
+    background-color: #01A9DD;
+    color: white;
+    border-radius: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.games,
+.learning-track {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.game-card_images,
+.learning-track-card_images {
+    display: flex;
+    gap: 40px;
+    overflow-y: scroll;
+    width: 110%;
+}
+
+.card p {
+    font-size: 17px;
+}
+
+aside {
+    width: 20%;
+    background-color: #01A9DD;
+    position: relative;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.activities img {
+    width: 20px;
+}
+
+.first-section p{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.aside-main-pic {
+    width: 200px;
+    margin-left: 25px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.second-section span,
+.third-section span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+
+.learners_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.learners_cards .card {
+    display: flex;
+    background-color: white;
+    height: 60px;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 10px;
+}
+
+.learners_cards .card span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    color: #274F51;
+}
+
+.learners_cards .card span h3 {
+    font-size: 17px;
+}
+
+.learners_cards .card span p {
+    font-size: 15px;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.activity-card {
+    background-color: white;
+    color: #274F51;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.activity-card .card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
